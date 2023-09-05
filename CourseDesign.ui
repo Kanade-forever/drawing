@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CourseDesign</class>
+ <widget class="QMainWindow" name="CourseDesign">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>617</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CourseDesign</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>720</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="File">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="Open_File"/>
+    <addaction name="Save_File"/>
+    <addaction name="Clear_Screen"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="Draw">
+    <property name="title">
+     <string>绘制</string>
+    </property>
+    <widget class="QMenu" name="menu">
+     <property name="title">
+      <string>多边形</string>
+     </property>
+     <addaction name="Draw_Polypon_Five"/>
+     <addaction name="Draw_Polypon_Six"/>
+     <addaction name="Draw_Polypon_Seven"/>
+     <addaction name="Draw_Polypon_Eight"/>
+     <addaction name="Draw_Polypon_Ten"/>
+    </widget>
+    <addaction name="Draw_Point"/>
+    <addaction name="Draw_Line"/>
+    <addaction name="Draw_Circle"/>
+    <addaction name="Draw_Oval"/>
+    <addaction name="Draw_Rectangle"/>
+    <addaction name="menu"/>
+    <addaction name="separator"/>
+    <addaction name="Select_Mode"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>格式</string>
+    </property>
+    <addaction name="Pen_Style"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>操作</string>
+    </property>
+    <addaction name="Menu_Paste"/>
+    <addaction name="Menu_Copy"/>
+   </widget>
+   <addaction name="File"/>
+   <addaction name="Draw"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="Open_File">
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="Draw_Point">
+   <property name="text">
+    <string>点</string>
+   </property>
+  </action>
+  <action name="Draw_Line">
+   <property name="text">
+    <string>直线</string>
+   </property>
+  </action>
+  <action name="Draw_Circle">
+   <property name="text">
+    <string>圆</string>
+   </property>
+  </action>
+  <action name="Draw_Oval">
+   <property name="text">
+    <string>椭圆</string>
+   </property>
+  </action>
+  <action name="Draw_Rectangle">
+   <property name="text">
+    <string>矩形</string>
+   </property>
+  </action>
+  <action name="Draw_Polypon_Five">
+   <property name="text">
+    <string>五边形</string>
+   </property>
+  </action>
+  <action name="Draw_Polypon_Six">
+   <property name="text">
+    <string>六边形</string>
+   </property>
+  </action>
+  <action name="Draw_Polypon_Seven">
+   <property name="text">
+    <string>七边形</string>
+   </property>
+  </action>
+  <action name="Draw_Polypon_Eight">
+   <property name="text">
+    <string>八边形</string>
+   </property>
+  </action>
+  <action name="Draw_Polypon_Ten">
+   <property name="text">
+    <string>十边形</string>
+   </property>
+  </action>
+  <action name="Pen_Style">
+   <property name="text">
+    <string>画笔格式</string>
+   </property>
+  </action>
+  <action name="Clear_Screen">
+   <property name="text">
+    <string>清空</string>
+   </property>
+  </action>
+  <action name="Save_File">
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </action>
+  <action name="Select_Mode">
+   <property name="text">
+    <string>不绘制</string>
+   </property>
+  </action>
+  <action name="Menu_Copy">
+   <property name="text">
+    <string>复制</string>
+   </property>
+  </action>
+  <action name="Menu_Paste">
+   <property name="text">
+    <string>粘贴</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
